@@ -25,13 +25,13 @@ spec:
     targetRevision: master
     helm:
       values: |
-        hostname: "rancher.demo.atoy.dev"
+        hostname: "rancher.demo.ekan.dev"
         rancherImageTag: "v2.4.8"
         ingress:
           tls:
             source: letsEncrypt
         letsEncrypt:
-          email: adam@atoy.dev
+          email: erik.johansson89@gmail.com
           environment: staging
           ingress:
             class: "traefik"
